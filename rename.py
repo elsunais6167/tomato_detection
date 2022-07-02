@@ -3,9 +3,9 @@ import os
 # Function to rename multiple files
 def main():
    i = 0
-   path="/home/el-sunais/devProjects/cv_tom_opt/yolo/Images/images/"
+   path="/home/el-sunais/devProjects/tomato_detection/datasets/ripe/"
    for filename in os.listdir(path):
-      my_dest ="Tom" + str(i) + ".jpg"
+      my_dest ="ripe" + str(i) + ".jpg"
       my_source =path + filename
       my_dest =path + my_dest
       # rename() function will
